@@ -50,17 +50,8 @@ A LPF allows frequencies from 0 to higher cut of frequency, fH. At fH the gain i
 
 ## DESIGN
 
-Given: fH = 1 KHz = 1/ (2πRC) Let C = 0.1 µF, R = 1.6 KΩ
-For n = 2, α (damping factor) = 1.414, Passband gain = Ao = 3 - α =3 – 1.414 = 1.586.
-Transfer function of second order butterworth LPF as:
-1.586
- 
-H(s) =
- 
-S2 + 1.414 s + 1
- 
-Now	Ao = 1 + (Rf / R1) = 1.586 = 1 + 0.586
-Let Ri = 10 KΩ, then Rf = 5.86 KΩ
+![WhatsApp Image 2025-12-04 at 11 15 36_2c735085](https://github.com/user-attachments/assets/b117a941-cc56-4204-8702-d5223f75e426)
+
 
 
 ## PROCEDURE
@@ -122,17 +113,8 @@ A HPF allows frequencies from 0 to higher cut of frequency, fH. At fH the gain i
 
 ## DESIGN
 
-Given: fH = 1 KHz = 1/ (2πRC) Let C = 0.1 µF, R = 1.6 KΩ
-For n = 2, α (damping factor) = 1.414, Passband gain = Ao = 3 - α =3 – 1.414 = 1.586.
-Transfer function of second order butterworth LPF as:
-1.586
- 
-H(s) =
- 
-S2 + 1.414 s + 1
- 
-Now	Ao = 1 + (Rf / R1) = 1.586 = 1 + 0.586
-Let Ri = 10 KΩ, then Rf = 5.86 KΩ
+![WhatsApp Image 2025-12-04 at 11 16 57_77322523](https://github.com/user-attachments/assets/f912d770-9bf3-4398-96c8-1e734bf3da7a)
+
 
 
 ## PROCEDURE
@@ -196,16 +178,8 @@ A BPF allows frequencies in between lower cut of frequency and higher cut of fre
 
 DESIGN: BAND PASS FILTER
 
-Design a BPF to pass a band of 400Hz to 2KHz with a pass band gain of 4.
-1.	Select the highest cut-off frequency of LPF as fH = 10 KHz and the lowest cut-off frequency of HPF as fL = 1 KHz.
-2.	Design the HPF first by taking fL = 1KHz. Assume the value of C < 1μf. Let C = 0.1μf.
-3.	Calculate R from the expression. Given: fH = 2KHz = 1/ (2πR1C1) Let C1 = 0.1 µF, R1 = 7.9 KΩ
-Given: fL = 400Hz = 1/ (2πR2C2)
-Let C2 = 0.1 µF, R2 = 39.8 KΩ
-Pass band Gain=4
-Now		Ao = 1 + (Rf / R1) 2-1=(Rf / Ri)
-Ri = Rf
-Let Ri = Rf = 10 KΩ
+![WhatsApp Image 2025-12-04 at 11 17 27_d22de0ef](https://github.com/user-attachments/assets/b77ba4cb-3677-4c70-88c0-fc6d5bde664d)
+
 
 
 ## PROCEDURE
